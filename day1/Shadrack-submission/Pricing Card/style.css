@@ -1,6 +1,7 @@
 .toggle-div{
     display: inline-block;
     flex-direction: row;
+    gap: 20px;
 }
 .toggle-container {
     display: flex;
