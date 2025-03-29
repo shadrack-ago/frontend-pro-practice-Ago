@@ -1,0 +1,9 @@
+.toggle.switch{
+    position:relative;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: evenly;
+    
+}
