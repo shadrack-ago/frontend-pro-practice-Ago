@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f4f3f3;
+}
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    display: inline-block;
+    width: 40%;
+}
+#h3{
+    padding-top: 0;
+    margin-bottom: 0px;
+}
+#h2{
+    margin-top: 0;
+    /* margin-bottom: 0; */
+}
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 5px;
+    font-size: 3rem;
+}
+.rating input {
+    display: none;
+}
+.rating label {
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+}
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+    color: gold;
+}
+.rating-message {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-family: arial;
+    color: #333;
+}
