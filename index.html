@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FrontendPro Sandbox</title>
+  <meta charset="UTF-8" />
+  
+  <style>
+    /* Use @import directive to import fonts here */
+
+body {
+  background-color: black;
+  font-family: sans-serif;
+  border: 8px solid white;
+  height:auto;
+  width:75%;
+}
+
+
+
+h6{
+  font-size: 8px;
+  font-weight:700;
+}
+h5{
+  font-size: 10px;
+  font-weight:bold;
+  line-height: 0.1;
+  text-align: center;
+  
+}
+h3{
+  font-size: 24px;
+  text-align: center;
+}
+
+
+
+.cards{
+  display:flex;
+  color:white;
+  justify-content: center;
+  
+ 
+}
+
+card1, card2, card3{
+ background-color:rgba(152, 153, 151, 0.4);
+ border-radius: 5px;
+ margin:20px;
+ padding:20px;
+ height:auto;
+ width:190px;
+ font-size: 12px;
+}
+
+ul li{
+  margin-bottom: 5px; 
+  font-size:10px;
+  margin-left: 40px;
+}
+
+  </style>
+</head>
+
+<body>
+ <div style="width: 300px; 
+            background-color: #e91e63; 
+            color: white;
+            padding: 3px; 
+            border-radius: 10px; 
+            font-family: sans-serif;
+            text-align: center; 
+            box-sizing: border-box; 
+            margin-top: 0; 
+            margin-left:440px;
+            line-height:0.0001;
+            width:150px;
+            ">
+
+    <h6>Your current plan</h6>
+    <p style="white-space: normal;font-size:10px; margin-top: 10px; ">
+        Starter Trial * 500MAUs
+    </p>
+
+</div>
+  
+  <h4 style="color:white;text-align: center;"> choose a plan</h4>
+
+  <div class="cards">
+    <card1>
+   <h5>Starter</h5>
+   <h3>$19</h3>
+   <ul style="list-style-type: disc; padding: 0; margin-bottom: 20px; margin-top: 30px;">
+      <li>500 MAUs</li>
+      <li>3 projects</li>
+      <li>Unlimited guides</li>
+      <li>Unlimited flow</li>
+      <li>Unlimited brand themes</li>
+      <li>Email support</li>
+  </ul>
+
+   <button style="color:white; background-color: transparent;cursor:pointer; margin-left:20px; margin-top:20px;">Choose Plan</button>
+</card1>
+<card2 >
+  <h5>pro</h5>
+  <h3>$99/month</h3>
+  <input type="dropdown" id="amount" placeholder="2500MAUs">
+    <ul style="list-style-type: disc; padding: 0; margin-bottom: 20px; margin-top: 30px;">
+      <li>All starter features,plus</li>
+      <li>Unlimited Projects</li>
+      <li>Unlimited fully customizable themes</li>
+      <li> A dedicated customer success manager</li>
+    </ul>
+     <button style="color:white;background-color:rgb(221, 38, 99);cursor:pointer; margin:20px 10px 50px 20px;">Choose Plan</button>
+</card2>
+
+<card3 style="line-height:1; margin-top:30px;">
+<h5>Enterprise</h5>
+<h3>Let's talk!</h3>
+
+<ul style="list-style-type: disc; padding: 0; margin-bottom: 20px; margin-top: 30px;">
+  <li>All pro features</li>
+  <li>Unlimited MAUs</li>
+  <li>Dedicated environment</li>
+  <li>Enterprise account administration</li>
+  <li>Premium support and services</li>
+</ul>
+
+<button style=" background-color: transparent;cursor:pointer;border-radius:5px;border:1 solid px ;margin-left:20px; margin-top:20px;">Contact Us</button>
+</card3>
+  </div>
+
+  <!-- DON'T remove it -->
+  <script src="src/index.js"></script>
+</body>
+
+</html>
